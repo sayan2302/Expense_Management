@@ -11,7 +11,7 @@ const Form = () => {
     const [amount, setAmount] = useState('');
     const [category, setCategory] = useState('');
     const [paymentMethod, setPaymentMethod] = useState('');
-    const { setExpenseList, editingId } = useContext(DataContext)
+    const { setExpenseList } = useContext(DataContext)
 
 
     const getData = async () => {
