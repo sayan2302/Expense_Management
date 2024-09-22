@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const baseURL = "http://localhost:8000"
+// const baseURL = "http://localhost:8000"
+const baseURL = "https://expense-management-omega.vercel.app"
 
 
 export const addExpense = async (payload) => {
